@@ -1,0 +1,18 @@
+n="AdiTya12345"
+print(n)
+digit=letter=up=lo=0
+for ch in n:
+    if ch.isdigit():
+        digit+=1
+    elif ch.isalpha():
+        letter+=1
+    elif ch.upper():
+        up=up+1
+    elif ch.lower():
+        lo+=1
+    else:
+        pass
+print(digit)
+print(letter)
+print(up)
+print(lo)
